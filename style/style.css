@@ -1,0 +1,179 @@
+footer {
+  background-color: grey;
+}
+
+#container {
+  display: flex;
+}
+
+#anim {
+  height: 300px;
+  width: 250px;
+  border: 1px solid black;
+  margin-left: 50px;
+  margin-top: 5px;
+}
+
+#anim > span > img {
+  width: 250px;
+  height: 300px;
+  /* object-fit: cover; */
+}
+
+#point {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#pa, #pm {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+#armo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#arm1, #arm2, #chrono {
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid black;
+  font-size: 15px;
+  color: black;
+}
+
+#arm1 > img, #arm2 > img {
+  max-height: 50px;
+  max-width: 50px;
+  object-fit: cover;
+}
+
+#button {
+  display: flex;
+  justify-content: space-around;
+}
+
+#chrono {
+  font-size: 50px;
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+#pm {
+  background-color: green;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+#pa {
+  background-color: red;
+  font-size: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+tbody td {
+  height: 50px;
+  width: 65px;
+  border: 1px solid #000000;
+  background-image: url("./images/solGris.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#playerMods {
+  height: 550px;
+  width: 500px;
+  background-color: #4141d5;
+  border: 1px solid black;
+  color: white;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.desactive {
+  height: 50px;
+  width: 65px;
+  background-image: url("./images/mur.jpg");
+  background-position: bottom;
+  background-size: 100% 100%;
+}
+
+.player1 {
+  height: 50px;
+  width: 65px;
+  border: 1px solid blue;
+  background-image: url("./images/link.jpg");
+  background-position: bottom;
+  background-size: 90% 90%;
+}
+
+.player2 {
+  height: 50px;
+  width: 65px;
+  border: 1px solid red;
+  background-image: url("./images/ff6.jpg");
+  background-position: bottom;
+  background-size: 90% 90%;
+}
+
+.chopped {
+  height: 50px;
+  width: 65px;
+  border: 1px solid orange;
+  background-image: url("./images/hache4.jpg");
+  background-size: 100% 100%;
+}
+
+.sword {
+  height: 50px;
+  width: 65px;
+  border: 1px solid green;
+  background-image: url("./images/sword.jpg");
+  background-size: 100% 100%;
+}
+
+.boot {
+  height: 50px;
+  width: 65px;
+  border: 1px solid red;
+  background-image: url("./images/botte.png");
+  background-size: 100% 100%;
+}
+
+.shield {
+  height: 50px;
+  width: 65px;
+  border: 1px solid red;
+  background-image: url("./images/bouclier.jpg");
+  background-size: 100% 100%;
+}
+
+.telePortA {
+  height: 50px;
+  width: 65px;
+  border: 1px solid #e806e8;
+  background-image: url("./images/tourbillon.jpg");
+  background-size: 100% 100%;
+}
+
+.telePortB {
+  height: 50px;
+  width: 65px;
+  border: 1px solid #e806e8;
+  background-image: url("./images/tourbillon2.jpg");
+  background-size: 100% 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
